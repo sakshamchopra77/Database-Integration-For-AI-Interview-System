@@ -1,15 +1,15 @@
 # 🚀 AI Interview Proctoring & Evaluation System
 
 ### **Database Integration Layer**
-This repository features a robust **Python-based database integration** for an automated interview proctoring system. It bridges the gap between raw **PostgreSQL** data and application logic, specifically designed to monitor candidate behavior and evaluate interview performance using AI.
+[cite_start]This repository features a robust **Python-based database integration** for an automated interview proctoring system. [cite_start]It bridges the gap between raw **PostgreSQL** data and application logic, specifically designed to monitor candidate behavior and evaluate interview performance using AI.
 
 ---
 
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x
-* **ORM:** SQLAlchemy (Object Relational Mapper)
-* **Database:** PostgreSQL
-* **Drivers:** Psycopg2-binary
+* [cite_start]**ORM:** SQLAlchemy (Object Relational Mapper) 
+* [cite_start]**Database:** PostgreSQL 
+* [cite_start]**Drivers:** Psycopg2-binary 
 
 ---
 
@@ -18,22 +18,12 @@ The project maps the following entities as defined in the PostgreSQL structure:
 
 | Table | Purpose |
 | :--- | :--- |
-| **`users`** | Manages candidate profiles and authentication data. |
-| **`interview_sessions`** | Central hub tracking status, timing, and cumulative risk scores. |
-| **`object_detection_events`** | Logs AI-detected items (e.g., cell phones) with confidence levels. |
-| **`face_pose_events`** | Tracks suspicious physical behavior and severity levels. |
-| **`audio_transcripts`** | Stores text content and timestamps for candidate responses. |
-| **`answer_evaluations`** | Links answers to AI-generated relevance scores and feedback. |
+| **`users`** | [cite_start]Manages candidate profiles and authentication data. |
+| **`interview_sessions`** | [cite_start]Central hub tracking status, timing, and cumulative risk scores. |
+| **`object_detection_events`** | [cite_start]Logs AI-detected items (e.g., cell phones) with confidence levels. |
+| **`face_pose_events`** | [cite_start]Tracks suspicious physical behavior and severity levels. |
+| **`audio_transcripts`** | [cite_start]Stores text content and timestamps for candidate responses. |
+| **`answer_evaluations`** | [cite_start]Links answers to AI-generated relevance scores and feedback. |
 
-[Image of entity relationship diagram for an interview proctoring system database]
 
----
 
-## 🚀 Getting Started
-
-### **1. Prerequisites**
-Ensure you have Python installed and a running PostgreSQL instance.
-
-### **2. Installation**
-```bash
-pip install -r requirements.txt
